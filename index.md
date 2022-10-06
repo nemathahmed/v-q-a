@@ -6,17 +6,38 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-# Focus on writing good documentation.
+# Reliable Answer Deduction <br />  Know When To And When Not To
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+CS7641 | Semester Project | Group 33
 {: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/just-the-docs/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-{: .new }
+
+## Introduction
+
+There is a plethora of textual information out there and it has become very important to be able to identify what is important. To find relevant information time is spent on going through the passage and finding the answer. However, plenty of times it has been seen that extractive reading comprehension systems locate the correct answer to a question, but they also tend to make unreliable guesses on questions for which the correct answer is not stated in the context, which is far from true language understanding.
+
+## Problem Definition
+
+Our aim here is to leverage the power of machine learning and natural language processing to create a model that deducts the answer given a passage and also identifies when a question is unanswerable. We would like to develop an ensemble model which successfully does the task and gives reliable answers for the given questions on a comprehension. Our current approach will be to take a pre-trained BERT model and then use a combination of architectures from state of the art models which are already quite accurate. 
+
+## Datasets
+To solve this problem we plan to leverage the SQuAD2.0 dataset which provides a set of question answer pairs with over 50,000.
+
+## Team
+
+
+* [Harsh Goyal](mailto:hgoyal34@gatech.edu)
+* [Kritika Venkatachalam](mailto:kvenkata8@gatech.edu)
+* [Nemath Ahmed](mailto:nshaik6@gatech.edu) 
+* [Pankhuri Singh](mailto:psingh374@gatech.edu)
+* [Siddharth Singh Solanki](mailto:siddharth.solanki@gatech.edu)
+
+<!-- {: .new }
 > **Pre-release version `0.4.0.rc2` is available!**
 > See [the CHANGELOG]({{ site.baseurl }}{% link CHANGELOG.md %}) for a detailed breakdown.
 
@@ -115,4 +136,4 @@ email, or any other method with the owners of this repository before making a ch
 
 Just the Docs is committed to fostering a welcoming community.
 
-[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
+[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository. -->
